@@ -18,18 +18,12 @@
     export default {
         data(){
         	return {
-        		series: 0,
-        		lessons: 0
-        	}
+        		series: 100,
+        		lessons: 12 
+        	} 
         },
-        created(){
-        	axios.get('https://laracasts.test/api/stats')
-        	.then(res => res.data)
-        	.then( data => {
-        	 
-        		  this.series = data.series;
-        		  this.lessons = data.lessons;
-        	});
+        created(){  
+             
         }
     }
 </script>

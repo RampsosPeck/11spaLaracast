@@ -6202,6 +6202,14 @@ p {
   padding-right: 2rem;
 }
 
+.w-18 {
+  width: 4.5rem;
+}
+
+.h-18 {
+  height: 4.5rem;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

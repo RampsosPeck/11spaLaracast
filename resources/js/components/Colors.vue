@@ -9,8 +9,9 @@
 
             <div class="flex">
                 <div class="text-center mr-8">
-                   
-                    <div class="rounded-full shadow w-18 h-18 mb-3" style="background: rgb(50, 138, 241);"></div>
+                    <div
+                        class="rounded-full bg-blue shadow w-18 h-18 mb-3"
+                    ></div>
                     <p class="text-xs">#328AF1</p>
                 </div>
 
@@ -39,7 +40,7 @@
                     from="#F44881"
                     name="Laravel"
                 ></color-range>
-
+                
                 <color-range
                     to="#637BFF"
                     from="#21C8F6"
@@ -71,9 +72,7 @@
 
             <div class="flex">
                 <div class="text-center mr-8">
-                    <div
-                        class="rounded-full shadow w-18 h-18 mb-3 bg-grey-dark"
-                    ></div>
+                    <div class="rounded-full shadow w-18 h-18 mb-3 bg-grey-dark"></div>
                     <p class="text-xs">#78909C</p>
                 </div>
             </div>
@@ -83,6 +82,7 @@
 
 <script>
 import ColorRange from './ColorRange';
+
 export default {
     components: {
         ColorRange
